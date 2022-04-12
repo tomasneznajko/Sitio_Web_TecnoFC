@@ -1,0 +1,75 @@
+header{
+    background-color: rgba(236, 25, 78, 0.932);
+    text-align: center;
+    
+}
+
+.encabezado{
+    height: 100px;
+    background-color: rgb(219, 100, 100);
+    align-items: center;
+    display: flex;
+    justify-content:center;
+    border: 3px rgb(54, 54, 219) solid;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+.navegador{
+    background-color: rgb(102, 102, 224);
+    border: 3px rgb(54, 54, 219) solid;
+    float: left;
+    width: 495px;
+    text-align: center;
+}
+
+ .contenedorMain{
+    height: 700px;
+    justify-content: center;
+ }
+
+.seccion{
+    background-color: rgb(124, 184, 36);
+    float: left;
+    width: 1300px;
+    height: 680px;
+    border: 3px rgb(54, 54, 219) solid;
+}
+
+h2{
+    text-align: center;
+    background-color: rgb(231, 99, 99);
+    border-top: 4px rgb(179, 93, 93) solid;
+    border-bottom: 4px rgb(179, 93, 93) solid;
+    margin-inline: 20px;
+}
+
+.articulo{
+    background-color: rgb(153, 90, 212);
+    margin: 30px;
+}
+
+.externo{
+    background-color: grey;
+    float: left;
+    width: 190px;
+    height: 680px;
+    border: 3px rgb(54, 54, 219) solid;
+}
+
+.externo img{
+    margin: 30px;
+    width: 130px;
+    height: 620px;
+}
+
+.pie{
+    background-color: rgb(233, 198, 156);
+    text-align: center;
+    border: 3px rgb(54, 54, 219) solid;
+    position: fixed;
+    bottom: 0px;
+}

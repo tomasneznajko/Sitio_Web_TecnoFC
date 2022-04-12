@@ -1,0 +1,43 @@
+*{
+    font-family:'Times New Roman', Times, serif;
+    color: aliceblue;
+}
+
+header{
+    background-color: black;
+    height: 150px;
+}
+
+.encabezado{
+    display: flex;
+    flex-flow: row wrap;
+    padding: 25px;
+    justify-content: space-between;
+    border: solid 2px white;
+}
+
+.encabezado:nth-child(n){
+    flex-grow: 1;
+}
+
+
+nav{
+    display: flex;
+    justify-content: center;
+}
+
+nav div{
+    border: 2px solid white;
+    flex-grow: 1;
+    text-align: center;
+    text-decoration: none;
+}
+
+nav div:hover{
+    background: linear-gradient(rgb(6, 162, 6),black);
+}
+
+footer{
+    background: linear-gradient(rgb(6, 162, 6),black);
+    text-align: center;
+}
